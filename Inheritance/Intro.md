@@ -1,0 +1,2 @@
+# Inheritance
+- Inheritance / Extension
