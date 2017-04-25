@@ -26,22 +26,28 @@ for mdFile in mdFiles:
     with open(mdFile, "r") as f:
         oldData = f.readlines()
 
-    for line in oldData:
+    for index, line in enumerate(oldData):
         if line.find("<!-- BackOne -->") != -1:
+            if(oldData[index - 1] != "\n"):
+                data.append("\n")
             data.append(backOne)
             backOneFlag = True
         elif line.find("<!-- BackToC -->") != -1:
+            if(oldData[index - 1] != "\n"):
+                data.append("\n")
             data.append(backToC)
             backToCFlag = True
         else:
             data.append(line)
 
     if not backOneFlag and os.path.basename(mdFile) != "Intro.md":
+        data.append("\n")
         data.append(backOne)
     if not backToCFlag:
+        data.append("\n")
         data.append(backToC)
 
 
     print(data)
-    # with open(mdFile, 'w') as f:
-    #     f.writelines(data)
+    with open(mdFile, 'w') as f:
+        f.writelines(data)

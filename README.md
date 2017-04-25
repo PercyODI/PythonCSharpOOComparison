@@ -33,3 +33,7 @@ N/A | .NET 4.6
 - [Procedural programming](ProceduralProgramming/Intro.md)
 - [Functional programming](FunctionalProgramming/Intro.md)
 - [Multithreading](Multithreading/Intro.md)
+
+:arrow_backward: [Back to Intro](./Intro.md) <!-- BackOne -->
+
+:rewind: [Back to Table of Contents](README.md) <!-- BackToC -->
