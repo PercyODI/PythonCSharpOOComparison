@@ -1,6 +1,17 @@
 # A Object Oriented Comparison of Python and C#
 ## By Pearse Hutson
 
+## Language Versions
+Programming languages are constantly changing, improving, and adding new and exciting features. This change makes comparison difficult. In order to overcome this issue, this document will specify the languages and versions we will be comparing, as well as any frameworks or libraries that will be used.
+
+Any deviations from these versions will be clearly marked. Otherwise, these specified versions should be assumed.
+
+Python | C#
+--- | ---
+Python 3.6.1 | C# 6.0
+ | .NET 4.6
+
+
 ### Table of Contents
 - [Language Purpose / Genesis](LanguagePurpose/Intro.md)
 - [Unique Features of the Language](UniqueFeatures/Intro.md)
