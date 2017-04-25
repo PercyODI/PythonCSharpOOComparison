@@ -4,4 +4,4 @@
 - Garbage collection?
 - Automatic reference counting?
 
-:rewind: [Back to Table of Contents](../README.md) <!-- BackToC -->
+[:rewind: Back to Table of Contents](../README.md) <!-- BackToC -->

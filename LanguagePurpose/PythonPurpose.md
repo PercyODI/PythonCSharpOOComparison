@@ -1,4 +1,3 @@
-# C# Genesis and purpose
 
 [:arrow_backward: Back to Intro](./Intro.md) <!-- BackOne -->
 

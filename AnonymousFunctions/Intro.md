@@ -3,4 +3,4 @@
 - Closures
 - Functions as Types
 
-:rewind: [Back to Table of Contents](../README.md) <!-- BackToC -->
+[:rewind: Back to Table of Contents](../README.md) <!-- BackToC -->

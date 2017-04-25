@@ -13,13 +13,15 @@ for root, subFolders, files in os.walk("."):
     if "\." in root: # Ignore hidden directories
         continue
     for f in files:
+        if "README" in f: # Ignore the README file
+            continue
         if ".md" in f: # Only modify MarkDown files
             mdFiles.append(os.path.abspath(os.path.join(root, f)))
 
 for mdFile in mdFiles:
-    backOne = ":arrow_backward: [Back to Intro](./Intro.md) <!-- BackOne -->\n"
+    backOne = "[:arrow_backward: Back to Intro](./Intro.md) <!-- BackOne -->\n"
     pathToToC = os.path.relpath(tableOfContentsPath, os.path.dirname(mdFile)).replace("\\", "/")
-    backToC = ":rewind: [Back to Table of Contents](" + pathToToC + ") <!-- BackToC -->\n"
+    backToC = "[:rewind: Back to Table of Contents](" + pathToToC + ") <!-- BackToC -->\n"
     backOneFlag = False
     backToCFlag = False
     data = []
