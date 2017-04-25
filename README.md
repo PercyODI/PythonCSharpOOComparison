@@ -9,7 +9,7 @@ Any deviations from these versions will be clearly marked. Otherwise, these spec
 Python | C#
 --- | ---
 Python 3.6.1 | C# 6.0
- | .NET 4.6
+N/A | .NET 4.6
 
 
 ### Table of Contents
