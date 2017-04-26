@@ -1,10 +1,10 @@
-# C*#* Genesis and purpose
+# C# Genesis and purpose
 
-## What is C*#*
+## What is C#
 
 C# is a statically typed object-oriented language. It is designed to be a general purpose language that can be used in many different environments and paradigms.
 
-## Goals of C*#*
+## Goals of C#
 The ECMA Standard of C*#* states several goals for the language designed
 - Simple, modern, general-purpose, object-oriented programming language
 - Support for software engineering principles
@@ -20,9 +20,11 @@ The ECMA Standard of C*#* states several goals for the language designed
 
 ## Relationship with Other languages
 
-## C++
-C# was designed
+### C++ and C
+C# was designed to take the best from C and from C++. C# uses a very similar syntax to that of C, which is very familiar to programmers. C++ was itself an object-oriented language, but had many quirks that C# aimed to fix. The name C# was inspired by the musical sharp notation that indicates a tone that is a half-step higher, similar to that of the ++ in C++.
 
+### Java
+It is obvious that C# took many ideas from Java. When C# was introduced, James Gosling (creator of Java) said that C# is "sort of Java with reliability, productivity, and security deleted." As the two languages have developed, they have gone different directions.
 
 [:arrow_backward: Back to Intro](./Intro.md) <!-- BackOne -->
 
