@@ -5,7 +5,7 @@
 C# is a statically typed object-oriented language. It is designed to be a general purpose language that can be used in many different environments and paradigms.
 
 ## Goals of C#
-The ECMA Standard of C*#* states several goals for the language designed
+The ECMA Standard of C# states several goals for the language designed
 - Simple, modern, general-purpose, object-oriented programming language
 - Support for software engineering principles
   - Strong type checking
