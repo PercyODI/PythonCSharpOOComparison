@@ -18,6 +18,12 @@ The ECMA Standard of C*#* states several goals for the language designed
 - Economical memory and processing power requirements
   - Note: Not intended to compete with C or Assembly performances
 
+## Relationship with Other languages
+
+## C++
+C# was designed
+
+
 [:arrow_backward: Back to Intro](./Intro.md) <!-- BackOne -->
 
 [:rewind: Back to Table of Contents](../README.md) <!-- BackToC -->
@@ -25,3 +31,4 @@ The ECMA Standard of C*#* states several goals for the language designed
 ## Resources
 - https://msdn.microsoft.com/en-us/library/z1zx9t92.aspx
 - http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-334.pdf
+- https://www.thesoftwareguild.com/faq/difference-between-c-plus-plus-and-c-sharp/
