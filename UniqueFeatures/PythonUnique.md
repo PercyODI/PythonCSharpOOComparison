@@ -96,8 +96,6 @@ Dictionary<string, string> aDictionary = new Dictionary<string, string>() {
 HashSet<int> aSet = new HashSet<int>(){1, 2, 3}
 ```
 
-## First Class Functions
-
 ## Explicit "Magic"
 Magic methods are methods that are not invoked directly, but instead are realized behind the scenes. Python handles necessary calls to methods "automagically". In Python, these methods are explicitly marked so that there is less confusion about what is and isn't magical. These methods are surrounded by double underscores, as can be seen in the example below.
 
