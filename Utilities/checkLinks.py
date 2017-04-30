@@ -1,6 +1,6 @@
 import sys, os, re
 
-pattern = re.compile('\[.+\]\((?P<file>.+)\)', re.MULTILINE) # Matches [text](directory/file.md)
+pattern = re.compile('\[.+\]\((?P<file>.+?)\)', re.MULTILINE) # Matches [text](directory/file.md)
 folderDict = {}
 numBadLinks = 0;
 

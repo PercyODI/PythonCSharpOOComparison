@@ -49,7 +49,7 @@ class Cat(Animal, Vertebrate):
     Vertebrate.__init__(self, "Mammal")
 ```
 
-C# does not support multiple inheritance. Instead, a type can implement any number of [Interfaces](../Inheritance/Into.md). There is also the ability to extend a method. By using extension, a method can be added to an existing type (including primitive types). This is helpful by not polluting the type namespaces, and we don't have to redesign class architecture for special cases.
+C# does not support multiple inheritance. Instead, a type can implement any number of [Interfaces](../Inheritance/Intro.md). There is also the ability to extend a method. By using extension, a method can be added to an existing type (including primitive types). This is helpful by not polluting the type namespaces, and we don't have to redesign class architecture for special cases.
 
 ```csharp
 namespace AnimalExtensions
@@ -60,7 +60,7 @@ namespace AnimalExtensions
     {
       return a.NumLegs;
     }
-  } 
+  }
 }
 ```
 
