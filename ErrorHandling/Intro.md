@@ -32,7 +32,7 @@ public void CallApi()
 }
 ```
 
-It is worth noting that when errors occur in Python, the line number is displayed along with a description of the error. Contrast this with C#, where exceptions throw long stack traces that can be hard to debug and do not point out exactly where the error occured.
+It is worth noting that when errors occur in Python, the line number is displayed along with a simple description of the error. Contrast this with C#, where exceptions throw long stack traces that can be hard to debug and do not point out exactly where the error occured.
 
 [:rewind: Back to Table of Contents](../README.md) <!-- BackToC -->
 
