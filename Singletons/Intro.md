@@ -23,6 +23,7 @@ class MySingleton(object):
         return cls.INSTANCE
 ```
 *(Taken from http://amir.rachum.com/blog/2012/04/26/implementing-the-singleton-pattern-in-python/)*
+
 This singleton is lazily instantiated, but is not thread-safe.
 
 A second method, which is considered to be a much better implementation to the others, is use of a metaclass.
