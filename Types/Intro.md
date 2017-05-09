@@ -1,7 +1,7 @@
 # Types
-- What types does the language support?
-- Are both reference and value types supported?
-- Can new value types be created?
+>- What types does the language support?
+>- Are both reference and value types supported?
+>- Can new value types be created?
 
 ## Type support
 C# supports reference and value types.
@@ -10,10 +10,6 @@ Python exclusively supports reference types. When passing objects in Python, the
 
 ## New Value Types
 C# makes a clear distinction between value types and reference types. The keyword `class` is used to define a new reference type, where the keyword `struct` is used to define a new value type.
-
-
-List of Types
--
 
 [:rewind: Back to Table of Contents](../README.md) <!-- BackToC -->
 

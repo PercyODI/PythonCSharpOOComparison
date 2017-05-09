@@ -1,6 +1,4 @@
 # Inheritance
-
-## Inheritance
 Both languages support the idea of inheritance. To create a subclass in Python, simply pass the super class in as a parameter to the class. Calling the super constructor is done by referencing the super type, and calling its `__init__` method.
 
 ```python

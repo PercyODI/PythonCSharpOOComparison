@@ -1,8 +1,8 @@
 # Classes
-- Defining
-- Creating New Instances
-- Constructing / Initializing
-- Destructing / De-Initializing
+>- Defining
+>- Creating New Instances
+>- Constructing / Initializing
+>- Destructing / De-Initializing
 
 ## Defining
 Classes in Python are defined by using the keyword `class`.

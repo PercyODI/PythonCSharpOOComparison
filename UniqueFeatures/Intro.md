@@ -1,5 +1,5 @@
 # Unique features of the language
-- Does the language have any particularly unique features?
+>- Does the language have any particularly unique features?
 
 [C# Unique Features](./CSharpUnique.md)
 

@@ -1,5 +1,5 @@
 # Instance Reference
-- Instance reference name in data type (class)
+>- Instance reference name in data type (class)
 
 ## Python
 Python uses `self` to refer to an instance of a class, and uses `clr` to refer to a class member.

@@ -1,7 +1,7 @@
 # Properties
 >- Getters and setters...write your own or built in?
-- Backing variables?
-- Computed properties?
+>- Backing variables?
+>- Computed properties?
 
 ## Getters and setters
 The "Pythonic" way of handling properties is to access the directly. Python does not enforce access modifiers, so all properties are publicly accessible at all times. There are conventions to use an underscore prefix to identify something as a private variable, nothing prevents access to the variable. Python enthusiast have even labeled Getters and Setters as *Python Anti-Patterns*.

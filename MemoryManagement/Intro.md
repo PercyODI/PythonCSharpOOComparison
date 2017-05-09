@@ -7,7 +7,7 @@
 ## Python
 Python handles memory management internally through the "Python Memory Manager". This manager is a private heap that contains all python objects and data structures.
 
-Because Python is not a standardized language, and many different implmentations exists, no guarantees can be made about garbage collections. In CPython, which is considered the main implementation, a combination of Reference Counting and Mark-And-Sweep are used. However, Jython and IronPython use a pure garbage collection system.
+Because Python is not a standardized language, and many different implementations exists, no guarantees can be made about garbage collections. In CPython, which is considered the main implementation, a combination of Reference Counting and Mark-And-Sweep are used. However, Jython and IronPython use a pure garbage collection system.
 
 ## C#
 C# itself does not handle memory, but instead the Common Language Runtime handles all memory management. C# uses garbage collection which, like Java, is unpredictable and can occur at any time. Garbage collection runs periodically to remove unreferenced objects, or when certain conditions are met, such as low physical memory or object allocation surpasses a threshold.
